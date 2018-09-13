@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/navbar.html"
+			navbar_prefix="navbar__"
+			navbar_mod="is--scroll"
+		]] 
+		[[azbntple  
+			tpl="/src/block/site/page/action.html"
+			content_prefix="content-block__"       
+			content_mod="  "    
+			block_heading_mod="is--page-heading  is--center"
+			block_heading_level="h1"
+			block_heading="Спецпредложения"
+			block_bread_mod="is--center"  
+		]]	
+		[[azbntple 
+			tpl="/src/block/site/default/form/block-reserv.html" 
+			block_prefix="form-panel__"
+			block_mod="is--bg"
+			block_bg="{{url-path-img}}/temp/bg-form.jpg"
+			form_prefix="form__"
+			form_id="f_reserv"
+			form_mod="is--reserv" 
+			form_color="  "
+			form_heading="Забронировать столик"
+			form_heading_small="  "
+			form_heading_mod="is--form-block"
+			form_btn_name="Забронировать"
+			form_btn_mod="is--invers"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+		[[azbntple tpl="/src/block/site/default/modals/include.html" ]]
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<footer class="{{footer_prefix}}block">	
+	<div class="{{footer_prefix}}inner">	
+		<div class="container {{footer_prefix}}container">
+			<div class="row {{footer_prefix}}row  is--base">
+				<div class="cols {{footer_prefix}}cols  is--copyright">
+					[[azbntple 
+						tpl="/src/block/site/default/button/btn-modal.html"
+						button_prefix="btn-link__" 
+						button_mod="is--xs"
+						button_target="modal-call"
+						button_name="Обратный звонок" 
+					]]	
+				</div>
+				[[azbntple 
+					tpl="/src/block/site/default/social/panel-contacts-footer.html" 
+					block_prefix="social-contacts__" 
+					block_mod="is--footer" 
+					footer_prefix="{{footer_prefix}}"
+				]]
+				<div class="cols {{footer_prefix}}cols  is--dorohovdesign">
+					<div class="row {{footer_prefix}}dorohovdesign-row"> 
+						<div class="cols {{footer_prefix}}dorohovdesign-cols  is--text">
+							<div class="{{footer_prefix}}dorohovdesign-text">Создание сайта</div>
+						</div>
+						<div class="cols {{footer_prefix}}dorohovdesign-cols  is--logotip">
+							<a href="http://dorohovdesign.ru/" target="_blank" class="{{footer_prefix}}dorohovdesign-logotip">
+								[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="dorohovdesign" ]]
+							</a>
+						</div>
+					</div>				 
+				</div>
+			</div>	
+		</div>
+	</div>
+</footer>
